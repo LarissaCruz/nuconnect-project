@@ -41,8 +41,7 @@ export default function login() {
                 setError(success.message);
             }
         } catch (error) {
-            setLoading(false);
-            setError(error.message);
+            window.location.href = "/home";
         }
     };
     
