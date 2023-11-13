@@ -1,0 +1,80 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.nav {
+  background: #820AD1;
+  display: flex;
+  justify-content: space-between;
+}
+.linkButton {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container {
+  padding: 2% 10%;
+}
+
+.title {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: Poppins;
+}
+
+.table {
+  border: 1px solid #D9D9D9; 
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2%;
+}
+
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #D9D9D9; 
+}
+
+.smallTitle {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.subtitle {
+  color: #B8B8B8;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.description {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btnTable {
+  border-radius: 50px;
+  background: #820AD1;
+  color: #FFF;
+  font-size: 14px;
+  border: none;
+  padding: 10px 40px;
+}

@@ -1,0 +1,27 @@
+.button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #820AD1;
+    border: none;
+    padding: 12px;
+    color: #FFFFFF;
+}
+.buttonCircle{
+    position: relative;
+    display: flex;
+    top: 68px;
+    left: 10%;
+    width: 42px;
+    height: 42px;
+    background: #820AD1;
+    box-shadow: 0px 3px 0px black;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 
+}
+.mainContainer {
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: Poppins;
+}
+.backgroundSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92.1vh;
+    background-image: url('/image.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+  .containerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    height: 80vh
+  }
+  .formulario{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .containerFoolter {
+    background: #EFEFEF;
+    padding: 30px 25%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .label{
+    color: #820AD1;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }

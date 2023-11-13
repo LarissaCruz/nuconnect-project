@@ -1,0 +1,19 @@
+.titulopagina {
+    color: #820AD1;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 27px; /* 112.5% */
+    letter-spacing: 0.72px;
+    padding: 1%;
+}
+.linha{
+    width: 50vh;
+    height: 0px;
+    border: 0.50px #BEBEBE solid;
+    justify-content: center;
+    margin: 2%;
+}
+.container{
+    width: 100%;
+}
